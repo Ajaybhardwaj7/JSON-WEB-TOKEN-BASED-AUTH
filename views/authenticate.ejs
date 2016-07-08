@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/head.ejs  %>
+  </head>
+  <body>
+    <h1>JSON WEB TOKEN based <%= title %> </h1>
+    
+    <p>This application is used to demonstrate the Token based authentication which allows the user to visit only having the valid token
+    after successfull Login </p>
+    	
+    	
+		<form action="/authenticate" method="POST">
+			<input type="text" placeholder="name" name="username" min=3/><br/><br/>
+			<input type="text" placeholder="password" name="password" min=10/><br/><br/>
+			<button type="submit">Submit</button>
+		</form>
+		<br/>
+		<br/>
+		
+  </body>
+</html>
