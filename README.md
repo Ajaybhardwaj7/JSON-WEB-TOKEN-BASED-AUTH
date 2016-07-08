@@ -1,0 +1,1 @@
+This is an example of json web token based authentication. It allows the user to authenticate first which generates a token for the user and set it into a cookie. When the user tries to access the secure pages it validates the token before granting the persmission 
